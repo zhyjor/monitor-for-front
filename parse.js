@@ -108,7 +108,7 @@ module.exports = function parse(time) {
         })
         writeFile(PARSE_ERROR_URL, arr.join('\n')).then(res => {
             if(res === 200) {
-                console.log('error success');
+                // console.log('error success');
             }
         })
         .catch(err=> {
@@ -194,7 +194,7 @@ module.exports = function parse(time) {
         // 写入文件
         writeFile(PARSE_TIME_URL, newarr.join('\n')).then(res => {
             if(res === 200) {
-                console.log('time success');
+                // console.log('time success');
             }
         })
         .catch(err => {
@@ -222,7 +222,7 @@ module.exports = function parse(time) {
         // 写入文件
         writeFile(PARSE_MOBILE_URL,arr.join('\n')).then(res => {
             if(res === 200) {
-                console.log('mobile success');
+                // console.log('mobile success');
             }
         }).catch(err=> {
             console.log(`mobile ${err}`);
@@ -258,7 +258,7 @@ module.exports = function parse(time) {
         // 写入文件
         writeFile(PARSE_PVUV_URL, data).then(res => {
             if(res === 200) {
-                console.log('PVUV success');
+                // console.log('PVUV success');
             }
         }).catch(err=> {
             console.log(`PVUV ${err}`);
