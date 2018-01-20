@@ -1,4 +1,5 @@
 node_modules/*
 .idea/*
-
+originalData/*
+errorData/*
 charts/csvData/*
